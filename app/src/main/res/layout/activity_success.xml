@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:content=".success">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="170dp"
+            android:src="@drawable/gidle_removebg_preview" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/gidle"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(G)I-DLE MEMBERS"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-condensed" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center"/>
+
+        <!--            the image and text view codes is for the member miyeon-->
+        <ImageView
+            android:layout_width="157dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:src="@drawable/my_removebg_preview"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="MIYEON"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"/>
+        <!--while, this codes are for the member minnie-->
+        <ImageView
+            android:layout_width="157dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:src="@drawable/mn_removebg_preview" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="MINNNIE"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"/>
+        <!-- this codes are for the member soojin-->
+        <ImageView
+            android:layout_width="157dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:src="@drawable/sj_removebg_preview" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="SOOJIN"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"/>
+        <!-- this codes are for the member soyeon-->
+        <ImageView
+            android:layout_width="157dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:src="@drawable/sy_removebg_preview__1_" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="SOYEON"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"/>
+        <!--while, this codes are for the member yuqi-->
+        <ImageView
+            android:layout_width="157dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:src="@drawable/yq_removebg_preview" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="YUQI"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"/>
+        <!--while, this codes are for the member shuhua-->
+        <ImageView
+            android:layout_width="157dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:src="@drawable/shua_removebg_preview" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="SHUHUA"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"/>
+
+    </LinearLayout>
+
+</ScrollView>
